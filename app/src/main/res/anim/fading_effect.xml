@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--set is the parent tag of alpha -->
+  <!--This alpha tag is used for fading effect-->
+  <!--this will fade view from alpha 0.0 to 1.0 in i second using interpolator accelerate_interpolator-->
+  <alpha android:fromAlpha="0.0"
+      android:duration="1000"
+      android:toAlpha="1.0"
+      android:interpolator="@android:anim/accelerate_interpolator"
+      />
+</set>
